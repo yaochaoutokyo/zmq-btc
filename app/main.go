@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	subZmq("tcp://-:28332")
+	subZmq("tcp://3.112.178.254:28332")
 }
 
 func subZmq(uri string) {
